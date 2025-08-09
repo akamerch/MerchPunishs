@@ -1,0 +1,47 @@
+name: MerchPunishs
+version: 1.0
+main: me.merch.MerchPunishs
+api-version: 1.18
+authors: [Merch]
+description: A comprehensive punishment system plugin.
+commands:
+  ban:
+    description: Bans a player.
+    usage: /ban <player> <reason>
+    permission: merchpunishs.ban
+  tempban:
+    description: Temporarily bans a player.
+    usage: /tempban <player> <time> <reason>
+    permission: merchpunishs.tempban
+  unban:
+    description: Unbans a player.
+    usage: /unban <player>
+    permission: merchpunishs.unban
+  mute:
+    description: Mutes a player.
+    usage: /mute <player> <reason>
+    permission: merchpunishs.mute
+  tempmute:
+    description: Temporarily mutes a player.
+    usage: /tempmute <player> <time> <reason>
+    permission: merchpunishs.tempmute
+  unmute:
+    description: Unmutes a player.
+    usage: /unmute <player>
+    permission: merchpunishs.unmute
+  ipban:
+    description: IP-bans a player.
+    usage: /ipban <player> <reason>
+    permission: merchpunishs.ipban
+  kick:
+    description: Kicks a player.
+    usage: /kick <player> <reason>
+    permission: merchpunishs.kick
+  history:
+    description: Shows a player's punishment history.
+    usage: /history <player>
+    permission: merchpunishs.history
+  mpunishs:
+    description: Main command for MerchPunishs.
+    usage: /mpunishs help
+    aliases: [mp]
